@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<div>Hi! My name is {{name}}</div>
+
+{{!-- Looping Through an Array --}}
+<h1>{{title}}</h1>
+<p>Welcome to the {{title}} list</p>
+
+<ul>
+    {{#each users}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+{{!-- Looping Through an Array objects --}}
+
+<h1>{{title}}</h1>
+<p>Welcome to a list of {{title}}</p>
+
+<ul>
+    {{#each cats}}
+    <li>{{name}}</li>
+    {{/each}}
+</ul>
